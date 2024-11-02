@@ -127,3 +127,14 @@ footer {
     background-color: #f1f1f1;
 }
 
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%; 
+    }
+    main {
+        padding-left: 0; 
+    }
+}
